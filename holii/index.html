@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <title>Formulario con validacione</title>
+</head>
+<body>
+    <main>
+        <form action="" class="formilario" id="formulario">
+            <!--USUARIO-->
+            <div class="formulario_grupo" id="grupo_usuario">
+                <label for="usuario" class="label_usuario">Usuario</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="usuario" id="usuario" placeholder="El_RayanSDVSF">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="formulario_input-error">El usuario tiene que ser de 4 a 16 digitos y solo puede contener números, letras y guión bajos</p>
+            </div>
+            <!--NOMBRE-->
+                <div class="formulario_grupo" id="grupo_nombre">
+                    <label for="nombre" class="label_nombre">Nombre</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" class="formulario_input" name="nombre" id="nombre" placeholder="Brayan">
+                        <i class="estado fas fa-time-circle"></i>
+                    </div>
+                    <p class="formulario_input-error">El nombre solo debe de tener letras</p>
+                </div>
+                <!--CONTRASEÑA-->
+            <div class="formulario_grupo" id="grupo_contraseña">
+                <label for="contraseña" class="label_contraseña">Contraseña</label>
+                <div class="formulario_grupo_input">
+                    <input type="text" class="formulario_input" name="contraseña" id="contraseña" placeholder="brayan123">
+                    <i class="estado fas fa-time-circle"></i>
+                </div>
+                <p class="formulario_input-error">La contraseña solo debe de tener letras, numeros y caracteres especificos</p>
+            </div>
+                <!--REPETIR CONTRASEÑA-->
+                <div class="formulario_grupo" id="grupo_repetir_contraseña">
+                    <label for="repetir_contraseña" class="label_repetir_contraseña">Repetir Contraseña</label>
+                    <div class="formulario_grupo_input">
+                        <input type="text" class="formulario_input" name="repetir_contraseña" id="repetir_contraseña" placeholder="brayan123">
+                        <i class="estado fas fa-time-circle"></i>
+                    </div>
+                    <p class="formulario_input-error">Repita la contraseña correctamente</p>
+                </div>
+                            <!--CORREO ELECTRONICO-->
+                            <div class="formulario_grupo" id="grupo_correo_electronico">
+                                <label for="correo_electronico" class="label_correo_electronico">Correo Electronico</label>
+                                <div class="formulario_grupo_input">
+                                    <input type="text" class="formulario_input" name="correo_electronico" id="correo_electronico" placeholder="brayanlds@gmail.com">
+                                    <i class="estado fas fa-time-circle"></i>
+                                </div>
+                                <p class="formulario_input-error">El correo electronico solo se acepta letras, numeros, puntos y caracteres especificos</p>
+                            </div>
+                            <!--TELEFONO-->
+                            <div class="formulario_grupo" id="grupo_telefono>
+                                <label for="telefono" class="label_telefono">Telefono</label>
+                                <div class="formulario_grupo_input">
+                                    <input type="text" class="formulario_input" name="telefono" id="telefono" placeholder="3205789410">
+                                    <i class="estado fas fa-time-circle"></i>
+                                </div>
+                                <p class="formulario_input-error">Solo debe de tener numeros</p>
+                            </div>
+        </form>
+    </main>
+</body>
+</html>
